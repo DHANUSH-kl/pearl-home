@@ -63,7 +63,7 @@ const Home: NextPage = () => {
                   </div>
                   <div>
                     <p className="text-xs text-stone-400 uppercase tracking-widest mb-1">Call for Booking</p>
-                    <a href="tel:7892433207" className="text-xl md:text-2xl text-white hover:text-gold transition-colors font-medium">+91 78924 33207</a>
+                    <a href="tel:7892433207" className="text-xl md:text-2xl text-white hover:text-gold transition-colors font-medium">+91 99001 95100</a>
                     <p className="text-sm text-stone-400 mt-1">Host: Chethak</p>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
                   </div>
                   <div>
                     <p className="text-xs text-stone-400 uppercase tracking-widest mb-1">Email Inquiries</p>
-                    <a href="mailto:chethakbkbilva@gmail.com" className="text-lg md:text-xl text-white hover:text-gold transition-colors font-medium">chethakbkbilva@gmail.com</a>
+                    <a href="mailto:chethakbkbilva@gmail.com" className="text-lg md:text-xl text-white hover:text-gold transition-colors font-medium">pearlhomee22@gmail.com</a>
                   </div>
                 </div>
               </div>

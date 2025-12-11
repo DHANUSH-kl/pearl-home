@@ -1,0 +1,11 @@
+/* styles/animations.css */
+/* Extra animations (kept minimal) */
+
+@keyframes float-up {
+  from { transform: translateY(8px); opacity: 0; }
+  to   { transform: translateY(0);     opacity: 1; }
+}
+
+.float-up {
+  animation: float-up 0.6s ease-out both;
+}

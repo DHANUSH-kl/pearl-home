@@ -11,6 +11,7 @@ import Amenities from "../components/Amenities";
 import Location from "../components/Location";
 import BookingForm from "../components/BookingForm";
 import BookingPrompt from "../components/BookingPrompt";
+import Listings from "../components/Listings";
 
 // import Footer from "../components/Footer";
 import { GALLERY_IMAGES } from "../lib/images";
@@ -39,6 +40,7 @@ const Home: NextPage = () => {
         <Experience />
         <GallerySection onOpenGallery={(i, m) => openGallery(i, m)} />
         <Amenities />
+        <Listings />
         <Location />
 
         <section id="book" className="relative py-24 bg-emerald-950 text-stone-100 overflow-hidden">
@@ -63,7 +65,7 @@ const Home: NextPage = () => {
                   </div>
                   <div>
                     <p className="text-xs text-stone-400 uppercase tracking-widest mb-1">Call for Booking</p>
-                    <a href="tel:7892433207" className="text-xl md:text-2xl text-white hover:text-gold transition-colors font-medium">+91 99001 95100</a>
+                    <a href="tel:7892433207" className="text-xl md:text-2xl text-white hover:text-gold transition-colors font-medium">+91 78924 33207</a>
                     <p className="text-sm text-stone-400 mt-1">Host: Chethak</p>
                   </div>
                 </div>

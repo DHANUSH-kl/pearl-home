@@ -32,7 +32,13 @@ export default function Location() {
           </div>
         </div>
 
-        <div className="order-1 lg:order-2 relative h-[400px] w-full bg-stone-200 rounded-3xl overflow-hidden group">
+        {/* Clickable map container */}
+        <a 
+          href="https://maps.app.goo.gl/8e6sngucXaJ8ouTXA" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="order-1 lg:order-2 block relative h-[400px] w-full rounded-3xl overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.02]"
+        >
           <div className="absolute inset-0 bg-[#E5E5E0]">
             <div className="absolute top-0 left-1/3 w-4 h-full bg-white/60 transform -skew-x-12" />
             <div className="absolute top-1/2 left-0 w-full h-4 bg-white/60 transform -rotate-6" />
@@ -47,7 +53,14 @@ export default function Location() {
             </div>
           </div>
           <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur px-4 py-2 rounded-md text-xs font-mono text-stone-500 border border-stone-200">12.295° N, 76.639° E</div>
-        </div>
+          
+          {/* Click hint overlay */}
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="bg-black/70 text-white px-4 py-2 rounded-lg text-sm font-medium backdrop-blur-sm">
+              Click to open in Google Maps →
+            </div>
+          </div>
+        </a>
       </div>
     </section>
   );
